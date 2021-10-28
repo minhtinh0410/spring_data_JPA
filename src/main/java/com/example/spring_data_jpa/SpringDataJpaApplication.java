@@ -26,9 +26,9 @@ public class SpringDataJpaApplication {
 
     private void insertEmployee(EmployeeRespository employeeRespository){
         Employee employee = Employee.builder()
-                .firstName("Minh")
-                .lastName("Dao")
-                .email("daominh@gmail.com")
+                .firstName("Tinh")
+                .lastName("Hang")
+                .email("tinhhang@gmail.com")
                 .build();
         employeeRespository.save(employee);
     }
